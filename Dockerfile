@@ -10,7 +10,7 @@ WORKDIR /code
 
 # Install dependencies
 COPY Pipfile /code/
-RUN pip install pipenv && pipenv install --system
+RUN pip install pipenv && pipenv install
 
 # Copy project
 COPY . /code/
