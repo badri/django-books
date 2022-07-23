@@ -1,1 +1,1 @@
-console.log('JavaScript here!')
+console.log("JavaScript here!")
